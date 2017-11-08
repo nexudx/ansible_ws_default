@@ -3,3 +3,13 @@
 - name: led command
   command: /usr/bin/rgb {{ color }}
   
+- name: copy blinken.sh
+  file:
+    src: blinken.sh
+    dest: /home/pi/blinken.sh
+    owner: pi
+    group: pi
+    mode: 0770
+
+- name: jetzt wird geblinkt
+  shell: /home/pi/blinken.sh
