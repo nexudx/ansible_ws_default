@@ -1,3 +1,4 @@
 ---
 # defaults file for ansible_ws_default
+ansible_ssh_user: pi
 color: "off"
