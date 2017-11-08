@@ -2,4 +2,4 @@
 # tasks file for ansible_ws_default
 - name: led command
     command: /usr/bin/rgb {{ color }}
-  become: yes
+  
