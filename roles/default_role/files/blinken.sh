@@ -34,3 +34,5 @@ sleep 0.5
 sleep 0.5
 /usr/bin/rgb blue
 sleep 0.5
+/usr/bin/rgb red
+sleep 0.5
